@@ -261,13 +261,13 @@ function draw(){
 
     drawPiece();
 
-    drawHalos();
+    //drawHalos();
 
-    drawLabels();
+    //drawLabels();
 
     drawPanel();
     
-    drawCalibration();
+    //drawCalibration();
 
 }
 
