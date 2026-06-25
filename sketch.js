@@ -7,6 +7,9 @@
 let pieceImage;
 let sounds = [];
 
+let calibration = false;
+let selectedElectrode = -1;
+
 // ---------- Escala da imagem ----------
 
 let imgX = 0;
@@ -306,7 +309,8 @@ function calculateImage(){
 // =====================================================
 
 function drawPiece(){
-
+fill(255,0,0);
+circle(mouseX,mouseY,8);
     image(
 
         pieceImage,
